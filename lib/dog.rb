@@ -3,7 +3,7 @@ class Dog
 
   def initialize(dog_name = "Fido")
     @name = dog_name
-    bark_method
+    bark
   end
 
   def name=(dog_name)
@@ -14,7 +14,7 @@ class Dog
     @name
   end
 
-  def bark_method
+  def bark
     puts "woof!"
   end
 
