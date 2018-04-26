@@ -15,7 +15,7 @@ class Dog
   end
 
   def bark_method
-    @bark = puts "woof!"
+    puts "woof!"
   end
 
 end
